@@ -1,0 +1,4 @@
+ucm\onlinedvdstore\bean\DVDBean.class
+ucm\onlinedvdstore\repository\DVDRepository.class
+ucm\onlinedvdstore\controller\OnlineDVDStoreController.class
+ucm\onlinedvdstore\model\DVDModel.class

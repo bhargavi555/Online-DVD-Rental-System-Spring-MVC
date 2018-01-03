@@ -1,0 +1,21 @@
+CREATE DATABASE OnlineDVDRentals;
+    
+    CREATE USER 'admin'@'localhost' IDENTIFIED BY 'admin';
+
+GRANT ALL PRIVILEGES ON OnlineDVDRentals.* TO 'admin'@'localhost';
+
+FLUSH PRIVILEGES;
+
+CREATE TABLE DVDCollection (
+   id int(37) NOT NULL PRIMARY KEY,
+   DVDCategory VARCHAR(20) NOT NULL,
+   DVDName VARCHAR(30) NOT NULL,
+   DVDDescription VARCHAR(300) NOT NULL,
+   DVDPrice float NOT NULL,
+   imagePath VARCHAR(300) NOT NULL,
+   createdate DATETIME NOT NULL,
+   updatedate DATETIME NOT NULL
+);
+
+http://www.codeproject.com/Articles/830529/Integrating-Full-Text-Search-to-Spring-MVC-with-Hi
+http://hans-knowledgebase.blogspot.com/
